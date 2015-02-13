@@ -4,9 +4,12 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
 
 
 public class MainActivity extends ActionBarActivity {
+
+    EditText text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
